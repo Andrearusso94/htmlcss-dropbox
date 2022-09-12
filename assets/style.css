@@ -17,6 +17,9 @@ body{
     width: calc(100% / 12 * 4);
     
 }
+.dx{
+    text-align: end;
+}
 .col_3 a{
     padding-left: 1.5rem;
     text-decoration: none;
@@ -31,3 +34,41 @@ body{
 
 }
 /*end region header*/
+/*region main*/
+/*region container presentation*/
+.presentation{
+    position: relative;
+    height: 750px;
+}
+.ds{
+    background-color: rgba(180, 208, 231, 1);
+    height: 600px;
+}
+h1{
+    font-size: 4.70rem;
+    position: absolute;
+    left:20rem;
+    top: 5rem;
+}
+.ds-left{
+    position: absolute;
+    padding-top: 3.5rem;
+    width: 20%;
+    left: 20rem;
+    top:15rem;
+}
+.pv_free{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding: 0.75rem ;
+    color: white;
+}
+.ds img{
+    width: 40%;
+    position:absolute;
+    left: 42.5rem;
+    top:18.5rem;
+}
