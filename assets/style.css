@@ -13,14 +13,14 @@ body{
     padding: 1.25rem;
 }
 
-.col_3{
+.col_4{
     width: calc(100% / 12 * 4);
     
 }
 .dx{
     text-align: end;
 }
-.col_3 a{
+.col_4 a{
     padding-left: 1.5rem;
     text-decoration: none;
     color: black;
@@ -71,4 +71,35 @@ h1{
     position:absolute;
     left: 42.5rem;
     top:18.5rem;
+}
+/*end region presentation*/
+/*region container_site*/
+
+#container_site{
+   width: 55%;
+   margin: auto;
+}
+h2{
+    font-size: 2.40rem;
+    margin-bottom: 2.25rem;
+}
+#container_site input{
+   padding: 1rem;
+   margin-left: 0.5rem;
+}
+.row_plan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.col_3{
+    width: calc(100% / 12 * 3);
+    margin-left: 1.5rem;
+}
+.first{
+    width: calc(100% / 12 * 3);
+    border: 1.5px solid grey;
+    text-align: center;
+    padding: 0.75rem;
 }
