@@ -73,7 +73,7 @@ h1{
     top:18.5rem;
 }
 /*end region presentation*/
-/*region container_site*/
+/*region container_site card*/
 
 #container_site{
    width: 55%;
@@ -92,22 +92,24 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2rem;
+    
 }
 .col_3{
-    width: calc(100% / 12 * 3);
+    width: calc(100% / 12 * 3.5);
     margin-left: 1.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
     border: 1px solid grey;
+    font-size: 0.85rem;
 }
 .first{
-    width: calc(100% / 12 * 3);
+    width: calc(100% / 12 * 3.5);
     border: 1.5px solid grey;
     text-align: center;
     padding: 0.75rem;
 }
 h3, h4, h5, .under_pl .col_3{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 .plan{
     margin-top: 1rem;
@@ -120,14 +122,32 @@ li{
 .trial{
     background-color: rgb(8, 95, 234);
     border-color: rgba(0, 97, 255, 1);
-    padding: 0.5rem 1.25rem;
+    padding: 1rem ;
     color: white;
-    margin-left:0.5rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+.trial_third{
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding: 1rem 2.5rem;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    display: block;
 }
 .small_bd{
     margin-top: 1rem;
     border: 0.25px solid grey;
-    width: 25%;
+    width: 20%;
     display: block;
 }
+.plan_two{
+    margin-top: 1.5rem;
+}
+.check{
+    font-size: 1.5rem;
+    color: blue;
+}
+/*end region container_site card*/
