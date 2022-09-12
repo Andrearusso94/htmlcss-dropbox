@@ -96,7 +96,6 @@ h2{
 }
 .col_3{
     width: calc(100% / 12 * 3.5);
-    margin-left: 1.5rem;
     padding: 1.5rem;
     border: 1px solid grey;
     font-size: 0.85rem;
@@ -151,3 +150,31 @@ li{
     color: blue;
 }
 /*end region container_site card*/
+.single_card{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+}
+.col_12{
+    width: calc(100% / 12 * 12);
+    border: 1px solid grey;
+    text-align: center;
+    padding: 0.75rem;
+}
+.col_9{
+    width: calc(100% / 12 * 9);
+}
+.col_2{
+    width: calc(100% / 12 * 2);
+}
+.trial_four{
+    margin-top: 1.5rem;
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding:0.75rem;
+    height: 50px;
+    width: 200px;
+    color: white;
+    display: block;
+}
