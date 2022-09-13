@@ -331,3 +331,28 @@ li{
 }
 /*end region main*/
 /*region footer*/
+footer{
+    background-color: black;
+}
+.link{
+    width: 70%;
+    margin: auto;
+}
+.row_link{
+    display:flex;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+.explanations{
+    color:white;
+    font-weight:normal ;
+    margin-top: 0.5rem;
+    font-size:0.85rem;
+}
+.col_2-principal{
+    font-weight:bold;
+    font-size: 1.5rem;
+    color: white; 
+    width: calc(100% / 12 * 2);
+    padding-bottom: 1.5rem;
+}
