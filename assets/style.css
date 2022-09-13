@@ -231,3 +231,13 @@ li{
     font-size: 0.90rem;
 }
 /*end region option dropbox*/
+.end{
+    margin-top: 1.5rem;
+    padding: 2.5rem;
+    width: 70%;
+}
+.end a{
+
+    text-decoration: underline;
+    color: blue;
+}
