@@ -299,6 +299,7 @@ li{
     background-color: rgba(180, 208, 231, 1);
     display: flex;
     justify-content: space-around;
+   
 }
 .free-trial{
     width: 30%;
@@ -318,3 +319,15 @@ li{
     color: black;
     border-color: white;
 }
+.questions{
+   width: 55%;
+   margin: auto;
+   margin-top: 3rem;
+}
+.frequents{
+    border-top: 1px solid grey;
+    font-weight:bold;
+    padding:1.5rem 0;
+}
+/*end region main*/
+/*region footer*/
