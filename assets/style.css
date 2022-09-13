@@ -237,7 +237,44 @@ li{
     width: 70%;
 }
 .end a{
-
     text-decoration: underline;
     color: blue;
+}
+/*region row color*/
+.row_color{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col_4-color{
+    display: flex;
+    width: calc(100% / 12 * 4);
+    
+    flex-wrap: wrap;
+    height: 600px;
+}
+.logo{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.logo img{
+    width: 60%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+.one{
+    background-color:rgba(162, 211, 155, 1);
+}
+.two{
+    background-color: rgba(97, 8, 43, 1);
+}
+.third{
+    background-color: rgba(0, 147, 206, 1);
+}
+.four{
+    background-color: rgba(255, 28, 28, 1);
 }
