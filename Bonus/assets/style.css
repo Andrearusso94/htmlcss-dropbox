@@ -364,6 +364,8 @@ li{
     padding:1.5rem;
 
 }
+
+/*faq*/
 .questions{
    width: 55%;
    margin: auto;
@@ -374,6 +376,16 @@ li{
     font-weight:bold;
     padding:1.5rem 0;
 }
+.hv{
+    display: none;
+    padding:2.5rem;
+}
+
+.frequents:hover + .hv {
+    display: block;
+}
+
+
 /*end region main*/
 /*region footer*/
 footer{
