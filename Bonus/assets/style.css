@@ -11,8 +11,12 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1.25rem;
+    transition: background-color 5s;
 }
-
+.primary_container:hover{
+    background-color: rgb(169, 169, 169);
+    opacity: 40%;
+}
 .col_4_sx{
     width: calc(100% / 12 * 4);
     
