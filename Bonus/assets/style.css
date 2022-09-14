@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/*region  header*/
+.primary_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+.col_4_sx{
+    width: calc(100% / 12 * 4);
+    
+}
+.col_4_dx{
+    text-align: end;
+}
+.col_4_dx, .col_4_sx, a{
+    padding-left: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.register{
+    margin-left: 1.5rem;
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding: 0.5rem 1rem;
+    color: white;
+
+}
+/*end region header*/
+/*region main*/
+/*region container presentation*/
+.jumbotron{
+    background-color: rgba(180, 208, 231, 1); 
+    
+}
+.container_j{
+    margin: auto;
+    width: 65%;
+    padding:2.5rem;
+    display: flex;
+    
+}
+.title_one{
+    font-size: 2.5rem;
+    margin: auto;
+    width: 65%;
+    padding:2.5rem;
+}
+   
+
+.jb-left{
+    width: calc(100% / 12 *6);
+    margin-top: 2.5rem; 
+}
+
+.jb_right{
+    width: calc(100% / 12 * 6);
+}
+
+.jb-right img{
+    width: 100%;
+     margin-bottom: -4.25rem;
+     margin-left: 4.5rem;
+}
+
+
+.pv_free{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding: 0.75rem ;
+    color: white;
+}
+.presentation img{
+    width: 100%;
+    
+}
+/*end region presentation*/
+/*region container_site card*/
+
+#container_site{
+   padding: 2rem;
+    width: 55%;
+   margin: auto;
+}
+h2{
+    font-size: 2.40rem;
+    margin-bottom: 2.25rem;
+}
+#container_site input{
+   
+    padding: 2.5rem;
+   margin-left: 0.5rem;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+.col_3{
+    width: calc(100% / 12 * 3.5);
+    padding: 1.5rem;
+    border: 1px solid grey;
+    font-size: 0.85rem;
+}
+.first{
+    width: calc(100% / 12 * 3.5);
+    border: 1.5px solid grey;
+    text-align: center;
+    padding: 0.75rem;
+}
+h3, h4, h5, .under_pl .col_3{
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+.plan{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+li{
+    padding-bottom: 0.75rem;
+    list-style-type: none;
+}
+.trial{
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding: 1rem ;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+.trial_third{
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding: 1rem 2.5rem;
+    color: white;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+.small_bd{
+    margin-top: 1rem;
+    border: 0.25px solid grey;
+    width: 20%;
+    display: block;
+}
+.plan_two{
+    margin-top: 1.5rem;
+}
+.check{
+    font-size: 1.5rem;
+    color: blue;
+}
+/*end region card plan*/
+.single_card{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid grey;
+    padding-bottom: 1.5rem;
+}
+.col_12{
+    width: calc(100% / 12 * 12);
+    border: 1px solid grey;
+    text-align: center;
+    padding: 0.75rem;
+}
+.col_9{
+    width: calc(100% / 12 * 9);
+    margin-left: 1.25rem;
+}
+.col_2{
+    width: calc(100% / 12 * 2);
+}
+.trial_four{
+    margin-top: 1.5rem;
+    background-color: rgb(8, 95, 234);
+    border-color: rgba(0, 97, 255, 1);
+    padding:0.75rem;
+    height: 50px;
+    width: 200px;
+    color: white;
+    display: block;
+}
+/*end region single card*/
+/*region main call to action*/
+.partner{
+    margin-top: 3.5rem;
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+.partner img{
+    width: 55%;
+}
+.fx_dx{
+    padding-top: 0.75rem;
+}
+.fx_dx h3{
+    font-size: 2rem;
+    padding-left: 2.75rem;
+}
+.fx_dx p{
+    font-size: 1rem;
+    padding-left: 2.75rem;
+    padding-right: 3rem;
+    margin-top: 1.5rem;
+    
+}
+.cta{
+    margin-left: 2.5rem;
+    padding: 0.75rem;
+    background-color: white;
+    border: 1px solid black;
+}
+/*end region call to action*/
+/*region option dropbox*/
+.option_dx{
+    padding-top: 2.5rem;
+}
+.col_4{
+    width: calc(100% / 12 * 4);
+    padding: 1.5rem;
+    font-size: 0.85rem;
+}
+.col_4 img{
+    width: 100%;
+}
+.col_4 h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.col_4 p{
+    font-size: 0.90rem;
+}
+/*end region option dropbox*/
+.end{
+    margin-top: 1.5rem;
+    padding: 2.5rem;
+    width: 70%;
+}
+.end a{
+    text-decoration: underline;
+    color: blue;
+}
+/*region row color*/
+.row_color{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col_4-color{
+    display: flex;
+    width: calc(100% / 12 * 4);
+    flex-wrap: wrap;
+    height: 600px;
+}
+.logo{
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+.logo img{
+    width: 60%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.one{
+    padding:2rem;
+    background-color:rgba(162, 211, 155, 1);
+}
+.two{
+    background-color: rgba(97, 8, 43, 1);
+}
+.third{
+    background-color: rgba(0, 147, 206, 1);
+}
+.four{
+    background-color: rgba(255, 28, 28, 1);
+}
+.five{
+    background-color: rgba(213, 0, 31, 1);
+}
+.six{
+    background-color: rgba(180, 208, 231, 1);
+}
+.seven{
+    background-color: rgba(13, 36, 129, 1);
+}
+.height{
+    background-color: rgba(255, 216, 48, 1);
+}
+.designit{
+    padding:1.5rem;
+}
+/*end region color row*/
+.call-to-action{
+    background-color: rgba(180, 208, 231, 1);
+    display: flex;
+    justify-content: space-around;
+   
+}
+.free-trial{
+    width: 30%;
+    padding:3.5rem;
+}
+.free-trial h3{
+    font-size: 2.25rem;
+    color: rgba(97, 8, 43, 1);
+    display: inline-block;
+}
+.title{
+    margin-left: 1.5rem;
+}
+.white{
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.questions{
+   width: 55%;
+   margin: auto;
+   margin-top: 3rem;
+}
+.frequents{
+    border-top: 1px solid grey;
+    font-weight:bold;
+    padding:1.5rem 0;
+}
+/*end region main*/
+/*region footer*/
+footer{
+    background-color: black;
+    height: 500px;
+    
+}
+.link{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.row_link{
+    display:flex;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+ 
+.col_2-principal{
+    
+    color: white; 
+    width: calc(100% / 12 * 2);
+    padding-bottom: 1.5rem;
+}
+.col_2-principal h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.small_bd-footer{
+    margin-top: 1rem;
+    border: 0.25px solid grey;
+    position: absolute;
+    width: 10%;
+    left: 60px;
+    top:400px;
+}
