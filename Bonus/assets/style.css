@@ -149,7 +149,9 @@ li{
 .trial_third{
     background-color: rgb(8, 95, 234);
     border-color: rgba(0, 97, 255, 1);
-    padding: 1rem 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 60%;
     color: white;
     margin-left: 1rem;
     margin-bottom: 1.5rem;
@@ -182,20 +184,18 @@ li{
     text-align: center;
     padding: 0.75rem;
 }
-.col_9{
-    width: calc(100% / 12 * 9);
+.col_8{
+    width: calc(100% / 12 * 8);
     margin-left: 1.25rem;
 }
-.col_2{
-    width: calc(100% / 12 * 2);
+.right{
+    width: calc(100% / 12 * 3);
 }
 .trial_four{
     margin-top: 1.5rem;
     background-color: rgb(8, 95, 234);
     border-color: rgba(0, 97, 255, 1);
-    padding:0.75rem;
-    height: 50px;
-    width: 200px;
+    padding:1rem;
     color: white;
     display: block;
 }
@@ -225,7 +225,8 @@ li{
 }
 .cta{
     margin-left: 2.5rem;
-    padding: 0.75rem;
+    padding: 1rem;
+    width: 40%;
     background-color: white;
     border: 1px solid black;
 }
@@ -332,11 +333,16 @@ li{
 .title{
     margin-left: 1.5rem;
 }
-.white{
-    margin-top: 1rem;
+.ct{
+    margin-top: 2.5rem;
+}
+.trial_white{
+    margin-top: 1.5rem;
     background-color: white;
     color: black;
     border-color: white;
+    padding:1.5rem;
+
 }
 .questions{
    width: 55%;
